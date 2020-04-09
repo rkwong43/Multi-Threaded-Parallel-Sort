@@ -11,11 +11,11 @@ The purpose was to quicksort large quantities of floats quickly.
 Program Functionality:
 Using a given number of processes or threads:
 
-  Setup the data file of floats
-  Take random samples from the floats
-  Create partitions or pivots for quicksort
-  Sort each sample locally
-  Write the sorted sample to the data file.
+- Setup the data file of floats
+- Take random samples from the floats
+- Create partitions or pivots for quicksort
+- Sort each sample locally
+- Write the sorted sample to the data file.
   
 The multi-threaded version writes to a separate file while the multi-process version writes in-place.
   

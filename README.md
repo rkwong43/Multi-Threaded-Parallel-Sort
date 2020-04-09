@@ -19,11 +19,15 @@ Using a given number of processes or threads:
   
 The multi-threaded version writes to a separate file while the multi-process version writes in-place.
   
+ 
 Command line syntax:
 Processes:
 $ ./ssort [num-threads/processes] data.dat
+
+
 Threads:
 $ ./ssort [num-threads/processes] data.dat data2.dat
+
 
 The process version used barriers and semaphores to prevent data races, while the threaded version
 used the pthread library and its mutexes to lock and broadcast to other threads.

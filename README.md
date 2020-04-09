@@ -21,6 +21,8 @@ The multi-threaded version writes to a separate file while the multi-process ver
   
  
 Command line syntax:
+
+
 Processes:
 $ ./ssort [num-threads/processes] data.dat
 
